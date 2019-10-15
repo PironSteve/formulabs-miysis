@@ -350,6 +350,7 @@
         float: none;
         max-width: 250px !important;
         max-height: 250px;
+        margin-left: 20px;
     }
 }
 
@@ -372,6 +373,11 @@
     position: relative;
     background: #000;
 }
+@media all and (max-width:480px){
+    .logic-section {
+        height: 250vh;
+    }
+}
 
 .logic {
     position: absolute;
@@ -384,6 +390,12 @@
     max-width: 1200px;
     padding: 0 40px;
 }
+@media all and (max-width:480px){
+    .logic {
+        display: unset;
+        left: 25%;
+    }
+}
 
 .logic h2 {
     color: #ff7979;
@@ -395,6 +407,11 @@
     border: 2px solid #ff7979;
     padding: 10px 50px;
     text-align: center;
+}
+@media all and (max-width:480px){
+    .logic h2 {
+        font-size: 15px;
+    }
 }
 
 .logic p {
@@ -415,6 +432,11 @@
     background-size: cover;
     position: relative;
 }
+@media all and (max-width:480px){
+    .aspects-section {
+        height: 250vh;
+    }
+}
 
 .aspects {
     position: absolute;
@@ -428,6 +450,12 @@
     margin-top: 50px;
     align-items: center;
 }
+@media all and (max-width:480px){
+    .aspects {
+        display: unset;
+        left: 25%;
+    }
+}
 
 .aspects h2 {
     color: #ff7979;
@@ -439,6 +467,11 @@
     border: 2px solid #ff7979;
     padding: 10px 50px;
     text-align: center;
+}
+@media all and (max-width:480px){
+    .aspects h2 {
+        font-size: 10px;
+    }
 }
 
 .aspects p {
@@ -463,6 +496,15 @@
     margin: 40px;
     shape-outside: circle();
 }
+@media all and (max-width:480px){
+    .brain {
+        float: none;
+        max-width: 150px !important;
+        max-height: 150px;
+        margin-left: 70px;
+    }
+}
+
 
 .aspects img {
     top: 0;
@@ -483,6 +525,7 @@
     flex-direction: row;
 }
 
+
 .aspectsImg {
     min-width: 50%;
 }
@@ -495,6 +538,12 @@
     letter-spacing: .5rem;
     line-height: 30px;
 }
+@media all and (max-width:480px){
+    .aspectsInfoPlus p {
+        font-size: 20px !important;
+    }
+}
+
 
 /* FORM */
 
@@ -504,6 +553,11 @@
     background:url(../img/science-background.jpg);
     background-size: cover;
     position: relative;
+}
+@media all and (max-width:480px){
+    .formulaire-section {
+        height: 200vh;
+    }
 }
 
 .formulaire {
@@ -517,6 +571,12 @@
     max-width: 1200px;
     padding: 0 40px;
 }
+@media all and (max-width:480px){
+    .formulaire {
+        display: unset;
+        left: 25%;
+    }
+}
 
 .formulaire h2 {
     color: #ff7979;
@@ -529,6 +589,11 @@
     max-width: 700px;
     padding: 10px 50px;
     text-align: center;
+}
+@media all and (max-width:480px){
+    .formulaire h2 {
+        font-size: 15px;
+    }
 }
 
 .formulaire p {
