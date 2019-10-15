@@ -67,7 +67,8 @@
     color: #fff;
     margin-bottom: 40px;
     text-align: justify;
-    letter-spacing: 1.6px;
+    letter-spacing: 2px;
+    line-height: 25px;
 }
 
 .page-content a {
@@ -90,19 +91,40 @@
 .technology-section {
     width: 100%;
     height: 100vh;
-    background: #22223A;
+    background: url(../img/72210009_409711413307581_8548676259981295616_n.jpg);
+    background-size: cover;
     position: relative;
 }
 
 .technology {
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 30%;
     transform: translate(-25%, -25%);
     box-sizing: border-box;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     padding: 0 40px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.techDesc {
+    display: flex;
+    flex-direction: row;
+}
+
+.techDescImportant {
+    font-style: italic;
+    font-size: 20px !important;
+    text-align: center !important;
+    margin-top: 20px;
+    letter-spacing: 2rem;
+}
+
+.techImg {
+    min-width: 50%;
 }
 
 .technology h2 {
@@ -110,35 +132,256 @@
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 800;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     letter-spacing: 10px;
     border: 2px solid #ff7979;
     max-width: 440px;
     padding: 10px 50px;
+    text-align: center;
 }
 
 .technology p {
     color: #fff;
     text-align: justify;
     letter-spacing: 2px;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 25px;
 }
 
-.circleImg {
-    max-width: 800px;
-    position: relative;
-    overflow: hidden;
-}
-
-.circleImg.microscope {
-    max-width: 500px;
-    max-height: 500px;
+.microscope {
+    max-width: 400px !important;
+    max-height: 100px;
     float: left;
     border-radius: 50%;
-    margin: 20px;
+    margin: 40px;
     shape-outside: circle();
 }
 
-.circleImg img {
+.technology img {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* CHIP */
+
+.chip-section {
+    width: 100%;
+    height: 100vh;
+    background:url(../img/science-background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.chip {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-25%, -25%);
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 1200px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chip h2 {
+    color: #ff7979;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 80px;
+    letter-spacing: 10px;
+    border: 2px solid #ff7979;
+    max-width: 440px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.chip p {
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 545px;
+    margin-bottom: 50px;
+}
+
+.chipImg {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50%;
+    background: #ff7979;
+}
+
+.chipDesc.chipImg {
+    width: 50%;
+    padding: 2rem;
+}
+
+/* ADVANTAGE */
+
+.advantage-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../img/72761370_1132931173571804_8632683088691855360_n.jpg);
+    background-size: cover;
+}
+
+.advantage {
+    top: 25%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-25%, -25%);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 40px;
+}
+
+.advantage h2 {
+    color: #ff7979;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    border: 2px solid #ff7979;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.advantage p {
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 40px;
+}
+
+.advantage img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.advGroup {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+/* LOGIC */
+
+.logic-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #000;
+}
+
+.logic {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-25%, -25%);
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 1200px;
+    padding: 0 40px;
+}
+
+.logic h2 {
+    color: #ff7979;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 80px;
+    letter-spacing: 10px;
+    border: 2px solid #ff7979;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.logic p {
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 40px;
+}
+
+/* ASPECTS */ 
+
+.aspects-section {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/72325889_790926084680647_8066717436868558848_n.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.aspects {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-25%, -25%);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 40px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.aspects h2 {
+    color: #ff7979;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 60px;
+    letter-spacing: 10px;
+    border: 2px solid #ff7979;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.aspects p {
+    color: #fff;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 25px;
+}
+
+.titleAsp {
+    display: flex;
+    flex-direction: row;
+}
+
+.brain {
+    max-width: 250px !important;
+    max-height: 250px;
+    float: right;
+    border-radius: 50%;
+    margin: 40px;
+    shape-outside: circle();
+}
+
+.aspects img {
     top: 0;
     left: 0;
     max-width: 100%;
