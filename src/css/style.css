@@ -369,9 +369,10 @@
 
 .logic-section {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     position: relative;
-    background: #000;
+    background: url(../img/72210009_409711413307581_8548676259981295616_n.jpg);
+    background-size: cover;
 }
 @media all and (max-width:480px){
     .logic-section {
@@ -672,4 +673,48 @@
     .name,.email {
         width: 100%;
     }
+}
+
+/* PUZZLE */
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+    display: table-cell;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ff7979;
+    background: url(../img/Puzzle-resize.jpg); 
+    cursor: pointer;
+}
+
+.tile1 {background-position: left top;}
+.tile2 {background-position: center top;}
+.tile3 {background-position: right top;}
+.tile4 {background-position: left center;}
+.tile5 {background-position: center center;}
+.tile6 {background-position: right center;}
+.tile7 {background-position: left bottom;}
+.tile8 {background-position: center bottom;}
+.tile9 {background: #ff7979; cursor: default;}
+
+#table {
+    margin: 0 auto;
+}
+
+.button-puzzle {
+    display: flex;
+    justify-content: center;
+}
+
+.puzzleBtn {
+    padding: 15px 30px;
+    margin: 5px;
+    background: transparent;
+    border: 1px solid;
+    color: #ff7979;
+}
+
+.puzzleBtn:hover {
+    background: #ff7979;
+    color: #fff;
+    transition: 1s;
 }
