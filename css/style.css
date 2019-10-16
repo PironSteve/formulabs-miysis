@@ -4,8 +4,8 @@
     font-family: "montserrat", sans-serif;
 }
 @media all and (max-width:480px){
-    * {
-        overflow: hidden;
+    body, * {
+        overflow-x: hidden;
     }
 }
 
